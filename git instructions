@@ -1,0 +1,14 @@
+## Git: Set Username
+git config --global user.name "{add_your_username_here}"
+
+## Git: Set Email
+git config --global user.email "{add_your_email_address_here}"
+
+## Git: Show branch name by default in CLI: Add the following to .bashrc file
+
+## Start Copy ##
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+## End Copy ##
