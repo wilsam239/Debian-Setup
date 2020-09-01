@@ -31,5 +31,6 @@ sudo apt install snapd
 sudo snap install discord
 sudo snap install firefox
 sudo snap install sublime-text --classic
+sudo snap install vlc
 # Visual Studio Code
 sudo snap install code --classic
