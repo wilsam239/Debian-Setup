@@ -48,6 +48,7 @@ nvm use --lts
 sudo apt install -y nginx
 sudo systemctl enable nginx
 sudo systemctl start nginx
+sudo apt install -y certbot python3-certbot-nginx
 
 # -- Play Framework -- #
 # Scala build tool (sbt)
