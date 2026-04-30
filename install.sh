@@ -26,8 +26,8 @@ sudo apt install -y \
 
 # -- Languages -- #
 
-# Java 11
-sudo apt install -y openjdk-11-jdk
+# Java 21
+sudo apt install -y openjdk-21-jdk
 
 # Python
 sudo apt install -y python3 python3-pip
